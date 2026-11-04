@@ -1,8 +1,21 @@
-node_modules/
+# Android / Gradle
+.gradle/
 build/
-dist/
-coverage/
+app/build/
+local.properties
+*.iml
+.idea/
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Secrets
+.env
+
+# OS
 .DS_Store
-*.log
-.env*
-!.env.example
+Thumbs.db
